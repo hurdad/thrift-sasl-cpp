@@ -30,3 +30,4 @@ install: $(TARGET_LIB) $(TARGET_STATIC)
 	cp $(TARGET_SHARED) $(DESTDIR)$(PREFIX)/lib64/
 	cp $(TARGET_STATIC) $(DESTDIR)$(PREFIX)/lib64/
 	cp *.h $(DESTDIR)$(PREFIX)/include/thrift/transport/
+	
